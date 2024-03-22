@@ -20,4 +20,7 @@ fn main(){
         let message = String::from_utf8_lossy(&mut response_bytes);
         println!("Received Message is : {}",message);
     }
+    else {
+        println!("Error connecting the server.");
+    }
 }
