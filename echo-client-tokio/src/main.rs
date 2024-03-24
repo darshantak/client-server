@@ -5,3 +5,7 @@ fn main(){
     println!("This is tokio implementation for the client");
 }
 
+fn callServer() -> bool{
+    true
+}
+
